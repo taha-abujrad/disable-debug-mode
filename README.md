@@ -1,6 +1,6 @@
 # Odoo Disable Debug App
 This repository provides an access group for enabling the debug mode in odoo
-and it is disabled by default for ither users
+and it is disabled by default for other users
 
 
 - Use the following command to clone the project:
