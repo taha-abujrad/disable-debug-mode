@@ -11,11 +11,11 @@
     """,
 
     'author': "Taha Abujrad",
-    'website': "",
+    'website': "https://github.com/Odoo-Plugins/disable-debug-mode",
 
     # for the full list
     'category': 'Production',
-    'version': '0.1',
+    'version': '0.2',
     'application': True,
     'license': 'LGPL-3',
 
