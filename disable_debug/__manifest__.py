@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "disable_debug",
+    'name': "Disable Debug Mode",
 
     'summary': """
         Control The use of Odoo Debug Mode By Access Group""",
 
     'description': """
         This module is used to disable the odoo debug mode for all users except for those
-        having the Use Debug Mode group
+        having the Use Debug Mode group, this feature is essential is production environment.
     """,
 
     'author': "Taha Abujrad",
