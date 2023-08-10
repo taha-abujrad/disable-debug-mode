@@ -10,6 +10,7 @@ class IrHttp(models.AbstractModel):
 
     @classmethod
     def _handle_debug(cls):
-        if can_enter_debug_mode(request.env.user):
-            return super(IrHttp, cls)._handle_debug()
-        request.session.debug = ''
+        if 'debug' in request.httprequest.args:
+            if can_enter_debug_mode(request.env.user):
+                return super(IrHttp, cls)._handle_debug()
+            request.session.debug = ''
