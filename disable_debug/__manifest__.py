@@ -11,7 +11,7 @@
     """,
 
     'author': "Taha Abujrad",
-    'website': "https://github.com/Odoo-Plugins/disable-debug-mode",
+    'website': "https://github.com/taha-abujrad/disable-debug-mode",
 
     # for the full list
     'category': 'Production',
